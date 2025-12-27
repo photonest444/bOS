@@ -1,7 +1,7 @@
 # bOS
 bOS is a new windows cmd client! Here is everything you need to know
-#Commands
+# Commands
 edit later
-#Apps
+# Apps
 edit later
-#Updates
+# Updates
