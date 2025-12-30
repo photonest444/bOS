@@ -1639,9 +1639,9 @@ try:
                     except:
                         print('AppError 001: "APP COMMAND GOT CRASHED"')
                     y = y+1
-                if ans:
+                if True in answers:
                     pass
-                if ans == False:
+                else:
                     print("\033[91;1mIncorrect command\033[0m")
 
         f = open(cwd+"/set/stcom.4set")
@@ -1677,4 +1677,5 @@ finally:
     print("Press any key to continue")
 
     keyboard.read_key()
+
 
