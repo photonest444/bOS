@@ -56,6 +56,7 @@ try:
         from collections import defaultdict
         import curses
         import math
+        from colorama import init, Fore, Style
         
         root = ""
 
@@ -1673,4 +1674,5 @@ try:
 finally:
     print(f"bOS crashed critical error: , path: {os.getcwd}")
     print("Press any key to continue")
+
     keyboard.read_key()
