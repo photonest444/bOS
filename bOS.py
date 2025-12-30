@@ -1638,6 +1638,7 @@ try:
                             print("Canceled")
                     except:
                         print('AppError 001: "APP COMMAND GOT CRASHED"')
+                    y = y+1
                 if ans:
                     pass
                 if ans == False:
@@ -1676,3 +1677,4 @@ finally:
     print("Press any key to continue")
 
     keyboard.read_key()
+
